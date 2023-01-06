@@ -1,6 +1,10 @@
 /*
- * Take a look at the role and name of the function
- * "check_arg_get_dangling_opt"
+ * Look at the function, "check_arg_get_dangling_opt".
+ *
+ * The better idea:
+ * check_arg_get_dangling_opt -> get_dangling_option
+ * _arg -> arg_count,
+ * _argv -> dangling_option
  */
 
 int check_arg_get_dangling_opt(bool *is_dangling, int _arg, char* _argv[]);
